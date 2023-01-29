@@ -1,4 +1,8 @@
-# Jsass (Json-Sass) is a tool to convert JSON to Sass variables.
+# Jsass (Json-Sass) is a tool to convert JSON to Sass variables
+
+![Sass-JSON](/Sass-Json.png)
+
+## Introduction
 
 The aim of this project is to provide a simple way to convert JSON to Sass variables and vice versa.
 
