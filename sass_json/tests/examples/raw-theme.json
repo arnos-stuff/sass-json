@@ -1,0 +1,259 @@
+{
+    "imports": [
+        "@import \"./exposer\";"
+    ],
+    "keys": [
+        [
+            ".reveal-viewport"
+        ],
+        [
+            ".reveal"
+        ],
+        [
+            ".reveal ::selection"
+        ],
+        [
+            ".reveal ::-moz-selection"
+        ],
+        [
+            ".reveal .slides section",
+            ".reveal .slides section>section"
+        ],
+        [
+            ".reveal h1",
+            ".reveal h2",
+            ".reveal h3",
+            ".reveal h4",
+            ".reveal h5",
+            ".reveal h6"
+        ],
+        [
+            ".reveal h1"
+        ],
+        [
+            ".reveal h2"
+        ],
+        [
+            ".reveal h3"
+        ],
+        [
+            ".reveal h4"
+        ],
+        [
+            ".reveal h1"
+        ],
+        [
+            ".reveal h2"
+        ],
+        [
+            ".reveal h3"
+        ],
+        [
+            ".reveal h4"
+        ],
+        [
+            ".reveal h1"
+        ],
+        [
+            ".reveal p"
+        ],
+        [
+            ".reveal h1:last-child",
+            ".reveal h2:last-child",
+            ".reveal h3:last-child",
+            ".reveal h4:last-child",
+            ".reveal h5:last-child",
+            ".reveal h6:last-child"
+        ],
+        [
+            ".reveal img",
+            ".reveal video",
+            ".reveal iframe"
+        ],
+        [
+            ".reveal strong",
+            ".reveal b"
+        ],
+        [
+            ".reveal em"
+        ],
+        [
+            ".reveal ol",
+            ".reveal dl",
+            ".reveal ul"
+        ],
+        [
+            ".reveal ol"
+        ],
+        [
+            ".reveal ul"
+        ],
+        [
+            ".reveal ul ul"
+        ],
+        [
+            ".reveal ul ul ul"
+        ],
+        [
+            ".reveal ul ul",
+            ".reveal ul ol",
+            ".reveal ol ol",
+            ".reveal ol ul"
+        ],
+        [
+            ".reveal dt"
+        ],
+        [
+            ".reveal dd"
+        ],
+        [
+            ".reveal blockquote"
+        ],
+        [
+            ".reveal blockquote p:last-child"
+        ],
+        [
+            ".reveal q"
+        ],
+        [
+            ".reveal pre"
+        ],
+        [
+            ".reveal code"
+        ],
+        [
+            ".reveal pre code"
+        ],
+        [
+            ".reveal .code-wrapper"
+        ],
+        [
+            ".reveal .code-wrapper code"
+        ],
+        [
+            ".reveal table"
+        ],
+        [
+            ".reveal table th"
+        ],
+        [
+            ".reveal table th",
+            ".reveal table td"
+        ],
+        [
+            ".reveal table th[align=\"center\"]",
+            ".reveal table td[align=\"center\"]"
+        ],
+        [
+            ".reveal table th[align=\"right\"]",
+            ".reveal table td[align=\"right\"]"
+        ],
+        [
+            ".reveal table tbody tr:last-child th",
+            ".reveal table tbody tr:last-child td"
+        ],
+        [
+            ".reveal sup"
+        ],
+        [
+            ".reveal sub"
+        ],
+        [
+            ".reveal small"
+        ],
+        [
+            ".reveal small *"
+        ],
+        [
+            ".reveal img"
+        ],
+        [
+            ".reveal a"
+        ],
+        [
+            ".reveal a:hover"
+        ],
+        [
+            ".reveal .roll span:after"
+        ],
+        [
+            ".reveal .r-frame"
+        ],
+        [
+            ".reveal a .r-frame"
+        ],
+        [
+            ".reveal a:hover .r-frame"
+        ],
+        [
+            ".reveal .controls"
+        ],
+        [
+            ".reveal .progress"
+        ],
+        [
+            "@media print"
+        ],
+        [
+            ".backgrounds"
+        ]
+    ],
+    "values": [
+        "{\n\t@include bodyBackground();\n\tbackground-color: var(--r-background-color);\n\tbackground-image: var(--r-background-image);\n}",
+        "{\n\tfont-family: var(--r-main-font);\n\tfont-size: var(--r-main-font-size);\n\tfont-weight: normal;\n\tcolor: var(--r-main-color);\n}",
+        "{\n\tcolor: var(--r-selection-color);\n\tbackground: var(--r-selection-background-color);\n\ttext-shadow: none;\n}",
+        "{\n\tcolor: var(--r-selection-color);\n\tbackground: var(--r-selection-background-color);\n\ttext-shadow: none;\n}",
+        "{\n\tline-height: 1.3;\n\tfont-weight: inherit;\n}",
+        "{\n\tmargin: var(--r-heading-margin);\n\tcolor: var(--r-heading-color);\n\n\tfont-family: var(--r-heading-font);\n\tfont-weight: var(--r-heading-font-weight);\n\tline-height: var(--r-heading-line-height);\n\tletter-spacing: var(--r-heading-letter-spacing);\n\n\ttext-transform: var(--r-heading-text-transform);\n\ttext-shadow: var(--r-heading-text-shadow);\n\n\tword-wrap: break-word;\n}",
+        "{font-size: var(--r-heading1-size); }",
+        "{font-size: var(--r-heading2-size); }",
+        "{font-size: var(--r-heading3-size); }",
+        "{font-size: var(--r-heading4-size); }",
+        "{color: var(--r-heading1-color); }",
+        "{color: var(--r-heading2-color); }",
+        "{color: var(--r-heading3-color); }",
+        "{color: var(--r-heading4-color); }",
+        "{\n\ttext-shadow: var(--r-heading1-text-shadow);\n}",
+        "{\n\tmargin: var(--r-block-margin) 0;\n\tline-height: 1.3;\n}",
+        "{\n\tmargin-bottom: 0;\n}",
+        "{\n\tmax-width: 95%;\n\tmax-height: 95%;\n}",
+        "{\n\tfont-weight: bold;\n}",
+        "{\n\tfont-style: italic;\n}",
+        "{\n\tdisplay: inline-block;\n\n\ttext-align: left;\n\tmargin: 0 0 0 1em;\n}",
+        "{\n\tlist-style-type: decimal;\n}",
+        "{\n\tlist-style-type: disc;\n}",
+        "{\n\tlist-style-type: square;\n}",
+        "{\n\tlist-style-type: circle;\n}",
+        "{\n\tdisplay: block;\n\tmargin-left: 40px;\n}",
+        "{\n\tfont-weight: bold;\n}",
+        "{\n\tmargin-left: 40px;\n}",
+        "{\n\tdisplay: block;\n\tposition: relative;\n\twidth: 70%;\n\tmargin: var(--r-block-margin) auto;\n\tpadding: 5px;\n\n\tfont-style: italic;\n\tbackground: rgba(255, 255, 255, 0.05);\n\tbox-shadow: 0px 0px 2px rgba(0,0,0,0.2);\n}",
+        "{\n\t\tdisplay: inline-block;\n\t}",
+        "{\n\tfont-style: italic;\n}",
+        "{\n\tdisplay: block;\n\tposition: relative;\n\twidth: 90%;\n\tmargin: var(--r-block-margin) auto;\n\n\ttext-align: left;\n\tfont-size: 0.55em;\n\tfont-family: var(--r-code-font);\n\tline-height: 1.2em;\n\n\tword-wrap: break-word;\n\n\tbox-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);\n}",
+        "{\n\tfont-family: var(--r-code-font);\n\ttext-transform: none;\n\ttab-size: 2;\n}",
+        "{\n\tdisplay: block;\n\tpadding: 5px;\n\toverflow: auto;\n\tmax-height: 400px;\n\tword-wrap: normal;\n}",
+        "{\n\twhite-space: normal;\n}",
+        "{\n\twhite-space: pre;\n}",
+        "{\n\tmargin: auto;\n\tborder-collapse: collapse;\n\tborder-spacing: 0;\n}",
+        "{\n\tfont-weight: bold;\n}",
+        "{\n\ttext-align: left;\n\tpadding: 0.2em 0.5em 0.2em 0.5em;\n\tborder-bottom: 1px solid;\n}",
+        "{\n\ttext-align: center;\n}",
+        "{\n\ttext-align: right;\n}",
+        "{\n\tborder-bottom: none;\n}",
+        "{\n\tvertical-align: super;\n\tfont-size: smaller;\n}",
+        "{\n\tvertical-align: sub;\n\tfont-size: smaller;\n}",
+        "{\n\tdisplay: inline-block;\n\tfont-size: 0.6em;\n\tline-height: 1.2em;\n\tvertical-align: top;\n}",
+        "{\n\tvertical-align: top;\n}",
+        "{\n\tmargin: var(--r-block-margin) 0;\n}",
+        "{\n\tcolor: var(--r-link-color);\n\ttext-decoration: none;\n\ttransition: color .15s ease;\n}",
+        "{\n\t\tcolor: var(--r-link-color-hover);\n\t\ttext-shadow: none;\n\t\tborder: none;\n\t}",
+        "{\n\tcolor: #fff;\n\t\t background: var(--r-link-color-dark);\n\n}",
+        "{\n\tborder: 4px solid var(--r-main-color);\n\tbox-shadow: 0 0 10px rgba(0, 0, 0, 0.15);\n}",
+        "{\n\ttransition: all .15s linear;\n}",
+        "{\n\tborder-color: var(--r-link-color);\n\tbox-shadow: 0 0 20px rgba(0, 0, 0, 0.55);\n}",
+        "{\n\tcolor: var(--r-link-color);\n}",
+        "{\n\tbackground: rgba(0,0,0,0.2);\n\tcolor: var(--r-link-color);\n}",
+        "{\n    .backgrounds {\n        background-color: var(--r-background-color);\n    }"
+    ]
+}

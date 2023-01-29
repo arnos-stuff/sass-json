@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sass-json"
+version = "0.1.0"
+description = "A simple CLI tool to convert SASS variables to JSON & vice versa."
+authors = ["arnos-stuff <bcda0276@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sass_json"}]
+
+[tool.poetry.scripts]
+jsass = "sass_json.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typer = {extras = ["all"], version = "^0.7.0"}
+requests = "^2.28.2"
+deepdiff = "^6.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
